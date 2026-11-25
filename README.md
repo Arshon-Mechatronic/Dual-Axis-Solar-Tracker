@@ -1,6 +1,6 @@
 # Dual-Axis-Solar-Tracker
 
-2.Project Overview
+1.Project Overview
 
 This project is a Dual-Axis Solar Tracking System developed using an Arduino Uno to automatically adjust the position of a solar panel according to the direction of sunlight.
 
@@ -8,7 +8,7 @@ The system uses Light Dependent Resistors (LDRs) to detect the intensity of sunl
 
 The main objective of this project is to keep the solar panel aligned with the direction of maximum sunlight exposure, improving the efficiency of solar energy collection compared to a fixed-position solar panel.
 
-3.Hardware Components
+2.Hardware Components
 
 Arduino Uno
 
@@ -26,7 +26,7 @@ L7805 Voltage Regulator
 
 Metal Servo Horns
 
-4.Working Principle
+3.Working Principle
 
 The system operates using light intensity measurements from LDR sensors positioned in different directions.
 
@@ -40,7 +40,7 @@ Vertical Tracking: Another servo motor adjusts the vertical position of the sola
 
 Continuous Tracking: This process repeats continuously, allowing the solar panel to follow the direction of maximum sunlight.
 
-5.Technologies Used
+4.Technologies Used
 
 Arduino Uno
 
