@@ -26,6 +26,7 @@ L7805 Voltage Regulator
 
 Metal Servo Horns
 
+
 3.Technologies Used
 
 Arduino Uno
@@ -37,6 +38,7 @@ LDR-based light sensing
 Servo motor control
 
 DC power regulation
+
 
 4.Working Principle
 
