@@ -26,7 +26,19 @@ L7805 Voltage Regulator
 
 Metal Servo Horns
 
-3.Working Principle
+3.Technologies Used
+
+Arduino Uno
+
+Embedded C/C++ (Arduino programming)
+
+LDR-based light sensing
+
+Servo motor control
+
+DC power regulation
+
+4.Working Principle
 
 The system operates using light intensity measurements from LDR sensors positioned in different directions.
 
@@ -40,14 +52,4 @@ Vertical Tracking: Another servo motor adjusts the vertical position of the sola
 
 Continuous Tracking: This process repeats continuously, allowing the solar panel to follow the direction of maximum sunlight.
 
-4.Technologies Used
 
-Arduino Uno
-
-Embedded C/C++ (Arduino programming)
-
-LDR-based light sensing
-
-Servo motor control
-
-DC power regulation
