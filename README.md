@@ -8,11 +8,14 @@ The system uses Light Dependent Resistors (LDRs) to detect the intensity of sunl
 
 The main objective of this project is to keep the solar panel aligned with the direction of maximum sunlight exposure, improving the efficiency of solar energy collection compared to a fixed-position solar panel.
 
+
 2.Hardware Components
 
 Arduino Uno
 
 MG995 Servo Motor
+
+Metal Servo Horns
 
 Power Supply
 
@@ -23,8 +26,6 @@ LDR Sensors
 Solar Panel
 
 L7805 Voltage Regulator
-
-Metal Servo Horns
 
 
 3.Technologies Used
@@ -42,16 +43,6 @@ DC power regulation
 
 4.Working Principle
 
-The system operates using light intensity measurements from LDR sensors positioned in different directions.
-
-Sunlight Detection: LDR sensors detect the intensity of sunlight from different directions.
-
-Signal Processing: The Arduino Uno reads the LDR sensor values and compares the light intensity readings.
-
-Horizontal Tracking: The Arduino adjusts the horizontal position of the solar panel using a servo motor.
-
-Vertical Tracking: Another servo motor adjusts the vertical position of the solar panel.
-
-Continuous Tracking: This process repeats continuously, allowing the solar panel to follow the direction of maximum sunlight.
+The system operates by using LDR sensors to detect and measure sunlight intensity from different directions. The Arduino Uno reads and compares the sensor values to determine the direction of maximum sunlight. Based on these readings, the Arduino controls two servo motors to adjust the solar panel's horizontal and vertical positions accordingly. This process is repeated continuously, allowing the solar panel to automatically track the direction of maximum sunlight and maintain optimal exposure throughout the day.
 
 
